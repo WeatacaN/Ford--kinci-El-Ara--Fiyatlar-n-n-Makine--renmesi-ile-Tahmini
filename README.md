@@ -22,3 +22,12 @@ Bu proje, makine öğrenmesi algoritmaları kullanılarak İngiltere ikinci el a
 * **R² Skoru (Random Forest):** 0.930
 
 Random Forest modeli, değişkenler arasındaki doğrusal olmayan ilişkileri daha iyi yakalayarak hata oranını ortalama %37 oranında düşürmüştür. Modelin özellik önemi (feature importance) analizine göre bir Ford aracın fiyatını belirleyen en önemli 3 değişken sırasıyla: **Üretim Yılı (~%48)**, **Motor Hacmi (~%25)** ve **Kilometre (~%7)** olarak saptanmıştır. Hata analizi sonucunda, modelin en çok nadir bulunan ve yüksek fiyatlı (uç değer) lüks/spor segment araçları tahmin etmede zorlandığı görülmüştür.
+
+## 💻 Projeyi Nasıl Çalıştırabilirsiniz?
+
+Projeyi kendi bilgisayarınızda veya tarayıcınız üzerinden test etmek için aşağıdaki adımları izleyebilirsiniz:
+
+**Seçenek 1: Google Colab Üzerinden 
+1. Depodaki `.ipynb` uzantılı dosyayı açın ve GitHub'ın sunduğu "Open in Colab" butonuna tıklayın.
+2. Kaggle'dan indirdiğiniz `ford.csv` veri setini Colab'in sol menüsündeki "Dosyalar" (Files) bölümüne sürükleyip bırakın.
+3. Üst menüden `Çalışma Zamanı (Runtime) -> Tümünü Çalıştır (Run all)` seçeneğine tıklayarak kodları test edin.
